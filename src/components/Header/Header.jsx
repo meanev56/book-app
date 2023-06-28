@@ -15,6 +15,7 @@ const Header = () => {
             <p className='header-text fs-18 fw-3'>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa laborum cumque possimus est, provident nam vel ad quas a quasi doloremque accusantium, molestiae ullam adipisci, laudantium voluptate delectus mollitia id?
             </p>
+            <SearchForm />
         </div>
       </header>
     </div>
