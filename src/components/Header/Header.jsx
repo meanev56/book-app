@@ -1,8 +1,23 @@
 import React from 'react'
+import Navbar from "../Navbar/Navbar"
+import SearchForm from "../../SearchForm/SearchForm"
+import "./Header.css"
 
 const Header = () => {
   return (
-    <div>Header</div>
+    <div className='holder'>
+      <header className='header'>
+        <Navbar />
+        <div className='header-content flex flex-center text-center text-white'>
+            <h2 className='header-title text-capitalize'>
+              Find your book of choice
+            </h2>
+            <p className='header-text fs-18 fw-3'>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa laborum cumque possimus est, provident nam vel ad quas a quasi doloremque accusantium, molestiae ullam adipisci, laudantium voluptate delectus mollitia id?
+            </p>
+        </div>
+      </header>
+    </div>
   )
 }
 
